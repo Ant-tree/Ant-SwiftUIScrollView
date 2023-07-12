@@ -5,11 +5,6 @@ Makes you able to enables / disables the scroll, tracks the current scroll posit
 
 Plus, you can check for the loading state of the webview.
 
-## Preview
-
-![screen](https://github.com/Ant-tree/Ant-WebView/assets/88021994/195161da-6a15-4d59-b5fc-6cceeceff65f)
-
-
 ## Usage
 Simple call the AntWebView and it will be there.
 ```Swift
@@ -31,3 +26,7 @@ AntWebView(
     alignment: .center
 )
 ```
+
+## Preview
+
+![screen](https://github.com/Ant-tree/Ant-WebView/assets/88021994/195161da-6a15-4d59-b5fc-6cceeceff65f)
