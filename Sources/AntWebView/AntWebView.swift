@@ -16,7 +16,7 @@ public struct AntWebView: UIViewRepresentable {
     var onScroll: ((CGPoint, Bool) -> Void)? = nil
     @Binding var isScrollable: Bool
     
-    init(_ urlString: String,
+    public init(_ urlString: String,
          isScrollable: Binding<Bool>,
          loadStatusChanged: ((Bool, Error?) -> Void)? = nil,
          onScroll: ((CGPoint, Bool) -> Void)? = nil
