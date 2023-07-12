@@ -6,7 +6,7 @@ Plus, you can check for the loading state of the webview.
 ## Usage
 Simple call the AntWebView and it will be there.
 ```Swift
-FixedWebView(
+AntWebView(
     urlString,
     isScrollable: $scrollEnabled
 ) { loading, error in
@@ -19,6 +19,6 @@ FixedWebView(
     maxWidth: .infinity,
     minHeight: 0,
     maxHeight: .infinity,
-    alignment: alignment
+    alignment: .center
 )
 ```

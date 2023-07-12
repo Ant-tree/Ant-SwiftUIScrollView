@@ -10,7 +10,7 @@ import SwiftUI
 import WebKit
 
 @available(iOS 13, *)
-struct AntWebView: UIViewRepresentable {
+public struct AntWebView: UIViewRepresentable {
     var urlString: String
     var loadStatusChanged: ((Bool, Error?) -> Void)? = nil
     var onScroll: ((CGPoint, Bool) -> Void)? = nil

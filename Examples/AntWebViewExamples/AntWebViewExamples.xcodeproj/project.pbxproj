@@ -11,6 +11,7 @@
 		7CFD5FF32A5EE7600065D957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF22A5EE7600065D957 /* ContentView.swift */; };
 		7CFD5FF52A5EE7620065D957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF42A5EE7620065D957 /* Assets.xcassets */; };
 		7CFD5FF82A5EE7620065D957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF72A5EE7620065D957 /* Preview Assets.xcassets */; };
+		7CFD60002A5EEB4A0065D957 /* AntWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 7CFD5FFF2A5EEB4A0065D957 /* AntWebView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFD60002A5EEB4A0065D957 /* AntWebView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +77,9 @@
 			dependencies = (
 			);
 			name = AntWebViewExamples;
+			packageProductDependencies = (
+				7CFD5FFF2A5EEB4A0065D957 /* AntWebView */,
+			);
 			productName = AntWebViewExamples;
 			productReference = 7CFD5FED2A5EE7600065D957 /* AntWebViewExamples.app */;
 			productType = "com.apple.product-type.application";
@@ -103,6 +108,9 @@
 				Base,
 			);
 			mainGroup = 7CFD5FE42A5EE7600065D957;
+			packageReferences = (
+				7CFD5FFE2A5EEB4A0065D957 /* XCRemoteSwiftPackageReference "Ant-WebView" */,
+			);
 			productRefGroup = 7CFD5FEE2A5EE7600065D957 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CFD5FFE2A5EEB4A0065D957 /* XCRemoteSwiftPackageReference "Ant-WebView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ant-tree/Ant-WebView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CFD5FFF2A5EEB4A0065D957 /* AntWebView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CFD5FFE2A5EEB4A0065D957 /* XCRemoteSwiftPackageReference "Ant-WebView" */;
+			productName = AntWebView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7CFD5FE52A5EE7600065D957 /* Project object */;
 }
