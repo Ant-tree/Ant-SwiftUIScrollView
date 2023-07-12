@@ -27,11 +27,11 @@ public struct AntWebView: UIViewRepresentable {
         _isScrollable = isScrollable
     }
     
-    func makeCoordinator() -> AntWebView.Coordinator {
+    public func makeCoordinator() -> AntWebView.Coordinator {
         Coordinator(self)
     }
     
-    func makeUIView(context: Context) -> WKWebView {
+    public func makeUIView(context: Context) -> WKWebView {
         guard let url = URL(string: urlString)
         else {
             return WKWebView()
@@ -51,7 +51,7 @@ public struct AntWebView: UIViewRepresentable {
         return webView
     }
     
-    func updateUIView(
+    public func updateUIView(
         _ uiView: WKWebView,
         context: UIViewRepresentableContext<AntWebView>
     ) {
@@ -68,26 +68,26 @@ public struct AntWebView: UIViewRepresentable {
         return copy
     }
 
-    class Coordinator: NSObject, WKNavigationDelegate, UIScrollViewDelegate {
+    public class Coordinator: NSObject, WKNavigationDelegate, UIScrollViewDelegate {
         let parent: AntWebView
         var lastContentOffsetY: CGFloat = 0
         init(_ parent: AntWebView) {
             self.parent = parent
         }
 
-        func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
+        public func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
             parent.loadStatusChanged?(true, nil)
         }
 
-        func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             parent.loadStatusChanged?(false, nil)
         }
 
-        func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+        public func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
             parent.loadStatusChanged?(false, error)
         }
         
-        func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        public func scrollViewDidScroll(_ scrollView: UIScrollView) {
             if (lastContentOffsetY != scrollView.contentOffset.y) {
                 parent.onScroll?(
                     scrollView.contentOffset,
