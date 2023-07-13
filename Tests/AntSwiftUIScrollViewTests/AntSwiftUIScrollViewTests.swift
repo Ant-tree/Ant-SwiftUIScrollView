@@ -1,5 +1,5 @@
 import XCTest
-@testable import AntWebView
+@testable import AntSwiftUIScrollView
 
 final class AntWebViewTests: XCTestCase {
     func testExample() throws {

@@ -7,56 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CFD5FF12A5EE7600065D957 /* AntWebViewExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF02A5EE7600065D957 /* AntWebViewExamplesApp.swift */; };
-		7CFD5FF32A5EE7600065D957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF22A5EE7600065D957 /* ContentView.swift */; };
-		7CFD5FF52A5EE7620065D957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF42A5EE7620065D957 /* Assets.xcassets */; };
-		7CFD5FF82A5EE7620065D957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD5FF72A5EE7620065D957 /* Preview Assets.xcassets */; };
-		7CFD60002A5EEB4A0065D957 /* AntWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 7CFD5FFF2A5EEB4A0065D957 /* AntWebView */; };
+		7C94F4CA2A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94F4C92A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift */; };
+		7C94F4CC2A6000DD00DF321E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94F4CB2A6000DD00DF321E /* ContentView.swift */; };
+		7C94F4CE2A6000DD00DF321E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94F4CD2A6000DD00DF321E /* Assets.xcassets */; };
+		7C94F4D12A6000DD00DF321E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94F4D02A6000DD00DF321E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CFD5FED2A5EE7600065D957 /* AntWebViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntWebViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CFD5FF02A5EE7600065D957 /* AntWebViewExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntWebViewExamplesApp.swift; sourceTree = "<group>"; };
-		7CFD5FF22A5EE7600065D957 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7CFD5FF42A5EE7620065D957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CFD5FF72A5EE7620065D957 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C94F4C62A6000DD00DF321E /* AntSwiftUIScrollViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntSwiftUIScrollViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C94F4C92A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntSwiftUIScrollViewExamplesApp.swift; sourceTree = "<group>"; };
+		7C94F4CB2A6000DD00DF321E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C94F4CD2A6000DD00DF321E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C94F4D02A6000DD00DF321E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7CFD5FEA2A5EE7600065D957 /* Frameworks */ = {
+		7C94F4C32A6000DD00DF321E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CFD60002A5EEB4A0065D957 /* AntWebView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7CFD5FE42A5EE7600065D957 = {
+		7C94F4BD2A6000DD00DF321E = {
 			isa = PBXGroup;
 			children = (
-				7CFD5FF02A5EE7600065D957 /* AntWebViewExamplesApp.swift */,
-				7CFD5FF22A5EE7600065D957 /* ContentView.swift */,
-				7CFD5FF42A5EE7620065D957 /* Assets.xcassets */,
-				7CFD5FF62A5EE7620065D957 /* Preview Content */,
-				7CFD5FEE2A5EE7600065D957 /* Products */,
+				7C94F4C92A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift */,
+				7C94F4CB2A6000DD00DF321E /* ContentView.swift */,
+				7C94F4CD2A6000DD00DF321E /* Assets.xcassets */,
+				7C94F4CF2A6000DD00DF321E /* Preview Content */,
+				7C94F4C72A6000DD00DF321E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7CFD5FEE2A5EE7600065D957 /* Products */ = {
+		7C94F4C72A6000DD00DF321E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CFD5FED2A5EE7600065D957 /* AntWebViewExamples.app */,
+				7C94F4C62A6000DD00DF321E /* AntSwiftUIScrollViewExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CFD5FF62A5EE7620065D957 /* Preview Content */ = {
+		7C94F4CF2A6000DD00DF321E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7CFD5FF72A5EE7620065D957 /* Preview Assets.xcassets */,
+				7C94F4D02A6000DD00DF321E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -64,42 +62,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CFD5FEC2A5EE7600065D957 /* AntWebViewExamples */ = {
+		7C94F4C52A6000DD00DF321E /* AntSwiftUIScrollViewExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CFD5FFB2A5EE7620065D957 /* Build configuration list for PBXNativeTarget "AntWebViewExamples" */;
+			buildConfigurationList = 7C94F4D42A6000DD00DF321E /* Build configuration list for PBXNativeTarget "AntSwiftUIScrollViewExamples" */;
 			buildPhases = (
-				7CFD5FE92A5EE7600065D957 /* Sources */,
-				7CFD5FEA2A5EE7600065D957 /* Frameworks */,
-				7CFD5FEB2A5EE7600065D957 /* Resources */,
+				7C94F4C22A6000DD00DF321E /* Sources */,
+				7C94F4C32A6000DD00DF321E /* Frameworks */,
+				7C94F4C42A6000DD00DF321E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AntWebViewExamples;
-			packageProductDependencies = (
-				7CFD5FFF2A5EEB4A0065D957 /* AntWebView */,
-			);
-			productName = AntWebViewExamples;
-			productReference = 7CFD5FED2A5EE7600065D957 /* AntWebViewExamples.app */;
+			name = AntSwiftUIScrollViewExamples;
+			productName = AntSwiftUIScrollViewExamples;
+			productReference = 7C94F4C62A6000DD00DF321E /* AntSwiftUIScrollViewExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7CFD5FE52A5EE7600065D957 /* Project object */ = {
+		7C94F4BE2A6000DD00DF321E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					7CFD5FEC2A5EE7600065D957 = {
+					7C94F4C52A6000DD00DF321E = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 7CFD5FE82A5EE7600065D957 /* Build configuration list for PBXProject "AntWebViewExamples" */;
+			buildConfigurationList = 7C94F4C12A6000DD00DF321E /* Build configuration list for PBXProject "AntSwiftUIScrollViewExamples" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,45 +102,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 7CFD5FE42A5EE7600065D957;
-			packageReferences = (
-				7CFD5FFE2A5EEB4A0065D957 /* XCRemoteSwiftPackageReference "Ant-WebView" */,
-			);
-			productRefGroup = 7CFD5FEE2A5EE7600065D957 /* Products */;
+			mainGroup = 7C94F4BD2A6000DD00DF321E;
+			productRefGroup = 7C94F4C72A6000DD00DF321E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CFD5FEC2A5EE7600065D957 /* AntWebViewExamples */,
+				7C94F4C52A6000DD00DF321E /* AntSwiftUIScrollViewExamples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CFD5FEB2A5EE7600065D957 /* Resources */ = {
+		7C94F4C42A6000DD00DF321E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CFD5FF82A5EE7620065D957 /* Preview Assets.xcassets in Resources */,
-				7CFD5FF52A5EE7620065D957 /* Assets.xcassets in Resources */,
+				7C94F4D12A6000DD00DF321E /* Preview Assets.xcassets in Resources */,
+				7C94F4CE2A6000DD00DF321E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CFD5FE92A5EE7600065D957 /* Sources */ = {
+		7C94F4C22A6000DD00DF321E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CFD5FF32A5EE7600065D957 /* ContentView.swift in Sources */,
-				7CFD5FF12A5EE7600065D957 /* AntWebViewExamplesApp.swift in Sources */,
+				7C94F4CC2A6000DD00DF321E /* ContentView.swift in Sources */,
+				7C94F4CA2A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7CFD5FF92A5EE7620065D957 /* Debug */ = {
+		7C94F4D22A6000DD00DF321E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		7CFD5FFA2A5EE7620065D957 /* Release */ = {
+		7C94F4D32A6000DD00DF321E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +256,14 @@
 			};
 			name = Release;
 		};
-		7CFD5FFC2A5EE7620065D957 /* Debug */ = {
+		7C94F4D52A6000DD00DF321E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AntSwiftUIScrollViewExamples/Preview Content\"";
 				DEVELOPMENT_TEAM = 7W567PD433;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -286,25 +278,22 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.anttree.AntWebViewExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anttree.AntSwiftUIScrollViewExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7CFD5FFD2A5EE7620065D957 /* Release */ = {
+		7C94F4D62A6000DD00DF321E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AntSwiftUIScrollViewExamples/Preview Content\"";
 				DEVELOPMENT_TEAM = 7W567PD433;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -319,11 +308,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.anttree.AntWebViewExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anttree.AntSwiftUIScrollViewExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,44 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CFD5FE82A5EE7600065D957 /* Build configuration list for PBXProject "AntWebViewExamples" */ = {
+		7C94F4C12A6000DD00DF321E /* Build configuration list for PBXProject "AntSwiftUIScrollViewExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CFD5FF92A5EE7620065D957 /* Debug */,
-				7CFD5FFA2A5EE7620065D957 /* Release */,
+				7C94F4D22A6000DD00DF321E /* Debug */,
+				7C94F4D32A6000DD00DF321E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CFD5FFB2A5EE7620065D957 /* Build configuration list for PBXNativeTarget "AntWebViewExamples" */ = {
+		7C94F4D42A6000DD00DF321E /* Build configuration list for PBXNativeTarget "AntSwiftUIScrollViewExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CFD5FFC2A5EE7620065D957 /* Debug */,
-				7CFD5FFD2A5EE7620065D957 /* Release */,
+				7C94F4D52A6000DD00DF321E /* Debug */,
+				7C94F4D62A6000DD00DF321E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7CFD5FFE2A5EEB4A0065D957 /* XCRemoteSwiftPackageReference "Ant-WebView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Ant-tree/Ant-WebView.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7CFD5FFF2A5EEB4A0065D957 /* AntWebView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7CFD5FFE2A5EEB4A0065D957 /* XCRemoteSwiftPackageReference "Ant-WebView" */;
-			productName = AntWebView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7CFD5FE52A5EE7600065D957 /* Project object */;
+	rootObject = 7C94F4BE2A6000DD00DF321E /* Project object */;
 }

@@ -1,12 +1,12 @@
 //
 //  ContentView.swift
-//  AntWebViewExamples
+//  AntSwiftUIScrollViewExamples
 //
-//  Created by HyunseokShim on 2023/07/12.
+//  Created by HyunseokShim on 2023/07/13.
 //
 
 import SwiftUI
-import AntWebView
+import SwiftUIScrollView
 
 struct ContentView: View {
     let urlString: String = "https://github.com"
