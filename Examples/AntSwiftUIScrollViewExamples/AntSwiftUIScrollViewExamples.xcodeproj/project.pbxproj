@@ -11,6 +11,7 @@
 		7C94F4CC2A6000DD00DF321E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94F4CB2A6000DD00DF321E /* ContentView.swift */; };
 		7C94F4CE2A6000DD00DF321E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94F4CD2A6000DD00DF321E /* Assets.xcassets */; };
 		7C94F4D12A6000DD00DF321E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94F4D02A6000DD00DF321E /* Preview Assets.xcassets */; };
+		7C94F4D92A60038800DF321E /* AntSwiftUIScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 7C94F4D82A60038800DF321E /* AntSwiftUIScrollView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C94F4D92A60038800DF321E /* AntSwiftUIScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +77,9 @@
 			dependencies = (
 			);
 			name = AntSwiftUIScrollViewExamples;
+			packageProductDependencies = (
+				7C94F4D82A60038800DF321E /* AntSwiftUIScrollView */,
+			);
 			productName = AntSwiftUIScrollViewExamples;
 			productReference = 7C94F4C62A6000DD00DF321E /* AntSwiftUIScrollViewExamples.app */;
 			productType = "com.apple.product-type.application";
@@ -103,6 +108,9 @@
 				Base,
 			);
 			mainGroup = 7C94F4BD2A6000DD00DF321E;
+			packageReferences = (
+				7C94F4D72A60038800DF321E /* XCRemoteSwiftPackageReference "Ant-SwiftUIScrollView" */,
+			);
 			productRefGroup = 7C94F4C72A6000DD00DF321E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AntSwiftUIScrollViewExamples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 7W567PD433;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -293,7 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AntSwiftUIScrollViewExamples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 7W567PD433;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C94F4D72A60038800DF321E /* XCRemoteSwiftPackageReference "Ant-SwiftUIScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ant-tree/Ant-SwiftUIScrollView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C94F4D82A60038800DF321E /* AntSwiftUIScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C94F4D72A60038800DF321E /* XCRemoteSwiftPackageReference "Ant-SwiftUIScrollView" */;
+			productName = AntSwiftUIScrollView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C94F4BE2A6000DD00DF321E /* Project object */;
 }

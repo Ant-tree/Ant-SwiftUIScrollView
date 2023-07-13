@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftUIScrollView
+import AntSwiftUIScrollView
 
 struct ContentView: View {
     let urlString: String = "https://github.com"
