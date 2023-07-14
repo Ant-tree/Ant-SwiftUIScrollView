@@ -6,7 +6,7 @@ Makes you able to enables / disables the scroll, tracks the current scroll posit
 Plus, you can check for the loading state of the webview.
 
 ## Usage
-Simple call the AntWebView or AntObservableScrollView and it will be there.
+Simply call the AntWebView or AntObservableScrollView and it will be there.
 | Function | AntWebView | AntObservableScrollView |
 | -------- | ---------- | ----------------------- |
 | Enables / disables the scroll    | O | O |
