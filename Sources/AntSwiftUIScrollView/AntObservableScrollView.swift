@@ -17,13 +17,50 @@ public struct ScrollViewOffsetPreferenceKey: PreferenceKey {
     
     public static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value += nextValue()
- 
     }
 }
 
 // A ScrollView wrapper that tracks scroll offset changes.
 @available(iOS 14.0, *)
 public struct AntObservableScrollView<Content>: View where Content : View {
+    @Namespace var scrollSpace
+    
+    let content: (ScrollViewProxy) -> Content
+    var onScrollChanged: ((CGFloat) -> Void)? = nil
+    @Binding var isScrollable: Bool
+    
+    public init(@ViewBuilder content: @escaping (ScrollViewProxy) -> Content,
+         onScrollChanged: ((CGFloat) -> Void)? = nil,
+         isScrollable: Binding<Bool>) {
+        self.content = content
+        self.onScrollChanged = onScrollChanged
+        _isScrollable = isScrollable
+    }
+    
+    public var body: some View {
+        ScrollView(content: {
+            ScrollViewReader { proxy in
+                content(proxy)
+                    .background(GeometryReader { geo in
+                        let offset = -geo.frame(in: .named(scrollSpace)).minY
+                        Color.clear
+                            .preference(key: ScrollViewOffsetPreferenceKey.self,
+                                        value: offset)
+                    })
+            }
+        })
+        .coordinateSpace(name: scrollSpace)
+        .onPreferenceChange(ScrollViewOffsetPreferenceKey.self) { value in
+            if let onScrollChanged = self.onScrollChanged {
+                onScrollChanged(value)
+            }
+        }
+    }
+}
+
+// A ScrollView wrapper that tracks scroll offset changes.
+@available(iOS 14.0, *)
+public struct AntControllableScrollView<Content>: View where Content : View {
     @Namespace var scrollSpace
     
     let content: (ScrollViewProxy) -> Content

@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C94F4CA2A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94F4C92A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift */; };
 		7C94F4CC2A6000DD00DF321E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94F4CB2A6000DD00DF321E /* ContentView.swift */; };
 		7C94F4CE2A6000DD00DF321E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94F4CD2A6000DD00DF321E /* Assets.xcassets */; };
 		7C94F4D12A6000DD00DF321E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94F4D02A6000DD00DF321E /* Preview Assets.xcassets */; };
 		7C94F4D92A60038800DF321E /* AntSwiftUIScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 7C94F4D82A60038800DF321E /* AntSwiftUIScrollView */; };
+		7CE5BA7F2A6A77DD004F050D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5BA7E2A6A77DD004F050D /* Utils.swift */; };
+		7CE5BA822A6A7969004F050D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5BA812A6A7969004F050D /* SceneDelegate.swift */; };
+		7CE5BA842A6A79BC004F050D /* MainObservedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5BA832A6A79BC004F050D /* MainObservedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C94F4C62A6000DD00DF321E /* AntSwiftUIScrollViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntSwiftUIScrollViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C94F4C92A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntSwiftUIScrollViewExamplesApp.swift; sourceTree = "<group>"; };
 		7C94F4CB2A6000DD00DF321E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C94F4CD2A6000DD00DF321E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C94F4D02A6000DD00DF321E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CE5BA7E2A6A77DD004F050D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7CE5BA802A6A794D004F050D /* AntSwiftUIScrollViewExamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AntSwiftUIScrollViewExamples-Info.plist"; sourceTree = "<group>"; };
+		7CE5BA812A6A7969004F050D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CE5BA832A6A79BC004F050D /* MainObservedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainObservedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +42,10 @@
 		7C94F4BD2A6000DD00DF321E = {
 			isa = PBXGroup;
 			children = (
-				7C94F4C92A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift */,
+				7CE5BA832A6A79BC004F050D /* MainObservedView.swift */,
+				7CE5BA812A6A7969004F050D /* SceneDelegate.swift */,
+				7CE5BA802A6A794D004F050D /* AntSwiftUIScrollViewExamples-Info.plist */,
+				7CE5BA7E2A6A77DD004F050D /* Utils.swift */,
 				7C94F4CB2A6000DD00DF321E /* ContentView.swift */,
 				7C94F4CD2A6000DD00DF321E /* Assets.xcassets */,
 				7C94F4CF2A6000DD00DF321E /* Preview Content */,
@@ -137,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE5BA842A6A79BC004F050D /* MainObservedView.swift in Sources */,
 				7C94F4CC2A6000DD00DF321E /* ContentView.swift in Sources */,
-				7C94F4CA2A6000DD00DF321E /* AntSwiftUIScrollViewExamplesApp.swift in Sources */,
+				7CE5BA7F2A6A77DD004F050D /* Utils.swift in Sources */,
+				7CE5BA822A6A7969004F050D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +285,7 @@
 				DEVELOPMENT_TEAM = 7W567PD433;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "AntSwiftUIScrollViewExamples-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -305,7 +315,7 @@
 				DEVELOPMENT_TEAM = 7W567PD433;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "AntSwiftUIScrollViewExamples-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
