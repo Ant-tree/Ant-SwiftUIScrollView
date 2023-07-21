@@ -7,12 +7,16 @@ Plus, you can check for the loading state of the webview.
 
 ## Usage
 Simply call the AntWebView or AntObservableScrollView and it will be there.
-| Function | AntWebView | AntObservableScrollView |
-| -------- | ---------- | ----------------------- |
-| Enables / disables the scroll    | O | O |
-| Scroll position tracking         | O | O |
-| Scrolls to specific point        | X | O |
-| Loading completion listening     | O | X |
+| Function | AntWebView | AntObservableScrollView | AntControllableScrollView |
+| -------- | ---------- | ----------------------- | ----------------------- |
+| Enables / disables the scroll    | O | O | X (Use introspect) |
+| Scroll position tracking         | O | O | O |
+| Scrolls to specific point        | X | O | O |
+| Loading completion listening     | O | X | X |
+
+> Currently, the `AntControllableScrollView` is unstable due to its UIKit feature.
+> 
+> Thus, use the `AntObservableScrollView` instead and use [SwiftUI-Introspect](https://github.com/siteline/SwiftUI-Introspect) to enable or disable the scroll event.
 
 ```Swift
 AntWebView(
