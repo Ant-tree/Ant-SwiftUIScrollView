@@ -5,6 +5,11 @@ Makes you able to enables / disables the scroll, tracks the current scroll posit
 
 Plus, you can check for the loading state of the webview.
 
+## Previews
+| WebView loading | Scroll position tracking | Nested scroll control |
+|-----------------|--------------------------|-----------------------|
+| ![1](https://github.com/Ant-tree/Ant-SwiftUIScrollView/assets/88021994/0d44c665-be19-450f-b787-0d2980f99c77) | ![2](https://github.com/Ant-tree/Ant-SwiftUIScrollView/assets/88021994/6a00a106-ba67-489a-ab07-cb937eb2bd7b) | ![3](https://github.com/Ant-tree/Ant-SwiftUIScrollView/assets/88021994/403c7f0a-8315-43c7-a9ee-6db3e9697855) |
+
 ## Usage
 Simply call the AntWebView or AntObservableScrollView and it will be there.
 | Function | AntWebView | AntObservableScrollView | AntControllableScrollView |
@@ -46,8 +51,7 @@ AntObservableScrollView(content: { proxy in
 }, onScrollChanged: { point in
     print("Where am I : \(point)")
 }, isScrollable: $scrollEnabled)
-```
-## Preview
+```ㅌ
 
 ![screen](https://github.com/Ant-tree/Ant-SwiftUIScrollView/assets/88021994/c00ec052-e816-46bc-897c-6fa3922471be)
 
